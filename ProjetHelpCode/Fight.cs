@@ -8,7 +8,7 @@ namespace ProjetHelpCode
 {
     class Fight
     {
-        static void Main(string[] args)
+        static void fight()
         {
             Character perso1 ;//gentil
             Character perso2;//méchant

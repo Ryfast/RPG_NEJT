@@ -9,7 +9,7 @@ namespace ProjetHelpCode
 {
     class CreateCharacter
     {
-        static void Main(string[] args)
+        static void creaperso()
         {
             writeYourName();
             sexChoose();

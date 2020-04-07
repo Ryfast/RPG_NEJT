@@ -11,6 +11,7 @@ namespace ProjetHelpCode
 
         static void Main(string[] args)
         {
+
             Debut();
         }
 
@@ -37,7 +38,7 @@ namespace ProjetHelpCode
     }
     public class CreateCharacter
     {
-        static void Main(string[] args)
+        static void creaperso()
         {
             writeYourName();
             sexChoose();
@@ -87,7 +88,7 @@ namespace ProjetHelpCode
             {
                 indexEvent = rnd.Next(0, 5);
             }
-            switch (indexEvent)
+           /* switch (indexEvent)
             {
                 case 0:
                     Event01();
@@ -113,7 +114,7 @@ namespace ProjetHelpCode
                     Event06();
                     break;
             }
-            lastEvent = indexEvent;
+            lastEvent = indexEvent;*/
         }
     }
 }
